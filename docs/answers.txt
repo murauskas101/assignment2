@@ -1,0 +1,28 @@
+1. Paste the console output you saved at the end of step 3.C (2 points)
+
+
+2. How many commits have been done to the repository (not only by you, but by anyone) so far? Write the git command you used to get this information (4 points)
+
+
+3. When was the README.md  file modified last? Write the git command you used to get this information (4 points)
+
+
+4. Mention two reasons why branches are used in a Git repository (4 points)
+
+
+5. What is the difference between git log and git status? (4 points)
+
+
+6. What command would you use to see the commits where “Vehicle.h” was one of the committed files? (4 points)
+
+
+7. What command would you use to see the commits whose commit message contains the word “file”? (4 points)
+
+
+8. In the context of object-oriented programming (I) What is inheritance? (II) What is polymorphism? (III) What is encapsulation? (6 points)
+
+
+9.  What is the main difference between the “Dictator and Lieutenants” workflow and the “Integration manager” workflow? (5 points)
+
+
+10. How would a team of 100 developers benefit from following the “Dictator and Lieutenants” workflow instead of the “Centralized” workflow? (5 points)
