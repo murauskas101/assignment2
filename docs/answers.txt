@@ -1,28 +1,95 @@
 1. Paste the console output you saved at the end of step 3.C (2 points)
 
+Lukas Murauskas@DESKTOP-7I109VG MINGW64 ~/Downloads/assignment2 (master)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 352 bytes | 352.00 KiB/s, done.
+Total 4 (delta 1), reused 1 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/murauskas101/assignment2.git
+   2d80b11..ce779a6  master -> master
 
 2. How many commits have been done to the repository (not only by you, but by anyone) so far? Write the git command you used to get this information (4 points)
+
+10 commits
+
+$ git rev-list --all --count
 
 
 3. When was the README.md  file modified last? Write the git command you used to get this information (4 points)
 
 
+The git command I used to get this information:
+
+	$ git log -- README.md
+
+When the README.md was modified last:
+
+	Date:   Thu Oct 24 15:57:07 2024 -0500
+
+
+
 4. Mention two reasons why branches are used in a Git repository (4 points)
 
+Two reasons why branches are used in Git repository is that one big reason would be that it allows the users to keep different versions of their code and another reason would be is that they are easy to use for multiple users with affecting the whole code.
 
 5. What is the difference between git log and git status? (4 points)
+
+The difference between git log and git status is that the git log shows the history when the file were modified and the git status shows on what branch the file is, shows whether it is up to date, and shows whether they have anything to commit.
+
+Lukas Murauskas@DESKTOP-7I109VG MINGW64 ~/Downloads/assignment2 (master)
+$ git log -- README.md
+commit d6afee2c4a59e54e95361638665fd62b350945e6
+Author: Lukas Murauskas <murauskas101@gmail.com>
+Date:   Thu Oct 24 15:57:07 2024 -0500
+
+    Updated README.md with added name and FSUID
+
+commit f4975e5d56ff331762b318bfd12c5236e0299f25
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Wed Sep 25 18:33:08 2019 -0400
+
+    -> Adding an empty README.md file
+
+
+Lukas Murauskas@DESKTOP-7I109VG MINGW64 ~/Downloads/assignment2 (master)
+$ git status -- README.md
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
 
 
 6. What command would you use to see the commits where “Vehicle.h” was one of the committed files? (4 points)
 
 
+git log -- Vehicle.h
+
+
 7. What command would you use to see the commits whose commit message contains the word “file”? (4 points)
+
+
+git log --grep="file"
 
 
 8. In the context of object-oriented programming (I) What is inheritance? (II) What is polymorphism? (III) What is encapsulation? (6 points)
 
+I. Inheritance allows a class to inherit properties and behaviors from a different class.
+
+
+II. Polymorphism is when something like a function can take on many different forms.
+
+
+III. Encapsulation bundles data and methods into one single unit.
 
 9.  What is the main difference between the “Dictator and Lieutenants” workflow and the “Integration manager” workflow? (5 points)
 
+The main difference between the "Dictator and Lieutenants" and the "Integration manager" is that in the "Dictator and Lieutenants" workflow everyone makes a pull from this repository and only the dictator can push, but in the "Integration manger" workflow, each developer make pull and push to their own public repository.
+
 
 10. How would a team of 100 developers benefit from following the “Dictator and Lieutenants” workflow instead of the “Centralized” workflow? (5 points)
+
+A team of 100 developers would benefit from the "Dictator and Lieutenants" workflow instead of the "Centralized" workflow because in a "Centralized" workflow, each developer has to pull any changes in the central repository and resolve conflicts before pushing  to the central repository and in the "Dictator and Lieutenants", it has more repositories where it is easier to make changes.
