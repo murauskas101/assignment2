@@ -1,3 +1,10 @@
+Git Lab Tutorials
+-	Completed 
+o	10-23-2024
+GitHub Account Creation
+-	09-11-2023
+
+
 1. Paste the console output you saved at the end of step 3.C (2 points)
 
 Lukas Murauskas@DESKTOP-7I109VG MINGW64 ~/Downloads/assignment2 (master)
